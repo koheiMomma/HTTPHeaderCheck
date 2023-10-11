@@ -34,9 +34,7 @@ curl http://localhost:5000?param1=value1&param2=value2
 - POSTリクエスト: リクエストヘッダとボディをJSON形式で返します。
 
 ```bash
-curl -X POST http://localhost:5000 \
-     -H "Content-Type: application/json" \
-     -d '{"key1": "value1", "key2": "value2"}'
+curl -X POST http://localhost:5000 -H "Content-Type: application/json" -d "{\"key1\": \"value1\", \"key2\": \"value2\"}"
 ```
 
 ## ライセンス
